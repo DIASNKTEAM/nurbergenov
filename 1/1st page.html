@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Autorization for Dikon.com</title>
+</head>
+<style>
+body{
+    margin:0;
+}
+canvas{
+position: fixed;
+top: 0;
+            left: 0;
+            /* outline: 1px solid red; */
+            background: rgba(168, 208, 231, 0.534);
+            z-index: -999;
+
+}
+.Chapter{
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+form {
+    width: 500px;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+
+    padding: 20px;
+    margin: 40px auto;
+    position: relative;
+    top: 80px;
+}
+
+.form-row {
+    width: 100%;
+    margin-bottom: 20px;
+}
+input {
+    width: 90%;
+    height: 30px;
+    padding: 0 5%;
+    margin-bottom: 15px;
+    
+}
+
+.reserve{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 50px;
+}
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    top: 10px; 
+
+}
+.continue{
+    position: absolute;
+    /* text-align: center; */
+    left: 700px;
+    top: 370px;
+    background-color:gold;
+}
+.chapter2{
+    position: relative;
+    top: -30px;
+}
+
+</style>
+<body>
+    <h1 class="Chapter"><b>Sign In</b></h1>
+    <form action="2nd page.html">
+        <input type="text" name="name" placeholder="Login or e-mail">
+        <input type="password" name="name" placeholder="password">
+        <button>Enter</button>
+    </form>
+    <p class="reserve">or</p>
+    <!-- <br> -->
+    <button class="continue" onclick="myFunction()">Create account</button>
+
+    <div id="myDIV">
+            <h1><b>Sign Up</b></h1>
+            <form class="chapter2" action="1st page.html">
+                <input type="text" name="name" placeholder="Login or e-mail">
+                <input type="password" name="name" placeholder="password">
+                <input type="password" name="name" placeholder="verify password">
+                <div class="form-row">
+                    <select>
+                        <option disabled selected>Location</option>
+                        <option>Canada</option>
+                        <option>USA</option>
+                        <option>England</option>
+                        <option>France</option>
+                        <option>China</option>
+                        <option>Russia</option>
+                        <option>Germany</option>
+                        <option>Japan</option>
+                        <option>Kazakhstan</option>
+                    </select>
+                </div>
+                <button type="submit">Confirm</button>
+            </form>
+    </div>
+</body>
+<script src="1st page.js"></script>
+</html>
