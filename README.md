@@ -1,1 +1,1 @@
-# nurbergenov.github.io
+DIAS NURBERGENOV
