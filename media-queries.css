@@ -1,0 +1,41 @@
+@media only screen and (max-width: 992px) {
+    .wrapper {
+        width: 750px;
+    }
+}
+@media only screen and (max-width: 760px){
+    .wrapper{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 480px){
+.wrapper{
+    width: 320px;
+}
+.continue{
+    position: absolute;
+    left: 205px;
+}
+.Chapter{
+    position: relative;
+    left: 100px;
+}
+.reserve{
+    position: relative;
+    left: 100px;
+}
+.chapter1{
+    position: relative;
+    width: 400px;
+    left: 30px;
+}
+.Tirkelego{
+    position: relative;
+    left: 100px;
+}
+.chapter2{
+    position: relative;
+    width: 400px;
+    left: 30px;
+}
+}
